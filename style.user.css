@@ -1,13 +1,20 @@
-
-@name "Rule 34 Styling";
-@description "theme";
-@license "mit";
-@author "https://github.com/u/thesludge2";
-@homepage "https://example.com";
-@namespace "r34sty";
-
 @-moz-document url-prefix("https://rule34.xxx/") {
+/* ==UserStyle==
+
+@name           Rule 34 Styling
+@namespace      r34sty
+@version        1.0.1
+@description    theme
+@license        MITLICENSE
+@author         https://github.com/u/thesludge2
+@homepageURL    https://example.com
+@updateURL      https://raw.githubusercontent.com/thesludge2/stylus-theme-for-rule34/refs/heads/main/style.user.css
+
+==/UserStyle== */
+
 /* rule34.xxx */
+
+
 
 :root{
     --image-width: 850px;   
