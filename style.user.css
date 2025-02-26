@@ -2,12 +2,12 @@
 
 @name           Rule 34 Styling
 @namespace      r34sty
-@version        1.0.1
+@version        1.0.12
 @description    theme
 @license        MITLICENSE
 @author         https://github.com/u/thesludge2
 @homepageURL    https://example.com
-@updateURL      https://raw.githubusercontent.com/thesludge2/stylus-theme-for-rule34/refs/heads/main/style.user.css
+@updateURL      https://raw.githubusercontent.com/thesludge2/stylus-theme-for-r34/refs/heads/main/style.user.css
 
 ==/UserStyle== */
 
@@ -189,6 +189,16 @@ span[data-nosnippet='']{
 
 @media only screen and (max-width: 600px) {
 
+    /* Fix mobile ui elements */
+    #image, #gelcomVideoPlayer{
+        width: calc(100% - 6px) !important;    
+        box-sizing: border-box;
+        
+    }
+    
+    .status-notice{
+        width: calc(100% - 6px) !important;
+    }
 }
 }
 
