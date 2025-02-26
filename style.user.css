@@ -1,6 +1,13 @@
 @-moz-document url-prefix("https://rule34.xxx/") {
 /* rule34.xxx */
 
+@name "Rule 34 Styling";
+@description "theme";
+@license "mit";
+@author "https://github.com/u/thesludge2";
+@homepage "https://example.com";
+@namespace "r34sty";
+
 :root{
     --image-width: 850px;   
     --left-bar-width: 200px;
