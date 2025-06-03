@@ -134,6 +134,7 @@ h4[class="image-sublinks"]{
 .thumb:has(.preview[alt~="slime_scheme"]),
 .thumb:has(.preview[alt~="rafiler"]),
 .thumb:has(.preview[alt~="matronai_(artist)"]),
+.thumb:has(.preview[alt~="galko-chan_(artist)"]),
 /* Gore */
 .thumb:has(.preview[alt~="wound_fucking"]),
 .thumb:has(.preview[alt~="decapitation"]),
