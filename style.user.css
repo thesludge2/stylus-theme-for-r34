@@ -165,11 +165,13 @@ ul:has(> a[href='/index.php?page=forum&s=view&id=192#1153']){
 }
 
 /* Hide the cookie banner */
-#gdprconsent{
+/* Disable this because videos don't play without consent as of now  */
+/* #gdprconsent{
     display: none !important;
     visibility: hidden !important;
 }
-
+*/
+    
 /* Hide self advertisement on the bottom of the image view page */
 a:has(img[src='https://rule34.xxx/images/rule34_merch.jpg']){
     display:none;
